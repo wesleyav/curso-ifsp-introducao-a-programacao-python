@@ -55,19 +55,19 @@ while (lancar == 'S'):
         totalAprovadosMasculino += 1
     elif media > 7 and sexo == 'F':
         totalAprovados += 1
-        totalAprovadosFeminino =+ 1
+        totalAprovadosFeminino += 1
     elif media >= 4 and sexo == 'M':
         totalExame += 1
         totalExameMasculino += 1
     elif media >= 4 and sexo == 'F':
         totalExame += 1
-        totalExameFeminino =+ 1
+        totalExameFeminino += 1
     elif media < 4 and sexo == 'M':
         totalReprovados += 1
         totalReprovadosMasculino += 1
     elif media < 4 and sexo == 'F':
         totalReprovados += 1
-        totalReprovadosFeminino =+ 1
+        totalReprovadosFeminino += 1
     
 
     # Questiona se deseja cadastrar um novo aluno ou finalizar e exibir o relatório
